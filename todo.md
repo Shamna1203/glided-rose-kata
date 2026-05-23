@@ -11,3 +11,7 @@
 [OK] Backstage passes: quality increases by 3 when sellIn <= 5
 [OK] Backstage passes: quality drops to 0 after concert
 [OK] Conjured: quality decreases by 2 each day (NEW FEATURE)
+
+/* github link
+https://github.com/Shamna1203/glided-rose-kata
+*/
