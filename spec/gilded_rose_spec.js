@@ -12,4 +12,10 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(18);
 });
 
+it("quality is never negative", function() {
+    const gildedRose = new Shop([new Item("normal item", 10, 0)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(0);
+});
+
 });
