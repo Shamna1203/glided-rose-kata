@@ -42,4 +42,10 @@ it("Sulfuras: quality never changes, always 80", function() {
     expect(items[0].quality).toEqual(80);
 });
 
+it("Sulfuras: sellIn never changes", function() {
+    const gildedRose = new Shop([new Item("Sulfuras, Hand of Ragnaros", 10, 80)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toEqual(10);
+});
+
 });
