@@ -5,8 +5,8 @@
 [OK] Aged Brie: quality increases by 1 each day
 [OK] Aged Brie: quality increases by 2 after sellIn date passed
 [OK] Sulfuras: quality never changes, always 80
-[in progress] Sulfuras: sellIn never changes
-[ ] Backstage passes: quality increases by 1 when sellIn > 10
+[OK] Sulfuras: sellIn never changes
+[in progress] Backstage passes: quality increases by 1 when sellIn > 10
 [ ] Backstage passes: quality increases by 2 when sellIn <= 10
 [ ] Backstage passes: quality increases by 3 when sellIn <= 5
 [ ] Backstage passes: quality drops to 0 after concert
