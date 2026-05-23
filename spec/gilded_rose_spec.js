@@ -54,4 +54,10 @@ it("Backstage passes: quality increases by 1 when sellIn > 10", function() {
     expect(items[0].quality).toEqual(21);
 });
 
+it("Backstage passes: quality increases by 2 when sellIn <= 10", function() {
+    const gildedRose = new Shop([new Item("Backstage passes to a TAFKAL80ETC concert", 10, 20)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(22);
+});
+
 });
