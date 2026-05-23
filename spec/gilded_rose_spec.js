@@ -18,4 +18,10 @@ it("quality is never negative", function() {
     expect(items[0].quality).toEqual(0);
 });
 
+it("quality is never more than 50", function() {
+    const gildedRose = new Shop([new Item("Aged Brie", 10, 50)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(50);
+});
+
 });
