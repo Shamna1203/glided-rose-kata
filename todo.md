@@ -9,5 +9,5 @@
 [OK] Backstage passes: quality increases by 1 when sellIn > 10
 [OK] Backstage passes: quality increases by 2 when sellIn <= 10
 [OK] Backstage passes: quality increases by 3 when sellIn <= 5
-[in progress] Backstage passes: quality drops to 0 after concert
-[ ] Conjured: quality decreases by 2 each day (NEW FEATURE)
+[OK] Backstage passes: quality drops to 0 after concert
+[in progress] Conjured: quality decreases by 2 each day (NEW FEATURE)
