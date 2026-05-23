@@ -36,4 +36,10 @@ it("Aged Brie: quality increases by 2 after sellIn date passed", function() {
     expect(items[0].quality).toEqual(22);
 });
 
+it("Sulfuras: quality never changes, always 80", function() {
+    const gildedRose = new Shop([new Item("Sulfuras, Hand of Ragnaros", 10, 80)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(80);
+});
+
 });
