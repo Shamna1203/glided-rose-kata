@@ -1,8 +1,8 @@
 [OK] normal item: quality decreases by 1 each day
 [OK] normal item: quality decreases by 2 after sellIn date passed
 [OK] quality is never negative
-[in progress] quality is never more than 50
-[ ] Aged Brie: quality increases by 1 each day
+[OK] quality is never more than 50
+[in progress] Aged Brie: quality increases by 1 each day
 [ ] Aged Brie: quality increases by 2 after sellIn date passed
 [ ] Sulfuras: quality never changes, always 80
 [ ] Sulfuras: sellIn never changes
