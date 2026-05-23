@@ -6,4 +6,10 @@ describe("Gilded Rose", function() {
         expect(items[0].quality).toEqual(19);
     });
 
+    it("normal item: quality decreases by 2 after sellIn date passed", function() {
+    const gildedRose = new Shop([new Item("normal item", 0, 20)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(18);
+});
+
 });
