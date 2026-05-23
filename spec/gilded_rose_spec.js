@@ -24,4 +24,10 @@ it("quality is never more than 50", function() {
     expect(items[0].quality).toEqual(50);
 });
 
+it("Aged Brie: quality increases by 1 each day", function() {
+    const gildedRose = new Shop([new Item("Aged Brie", 10, 20)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(21);
+});
+
 });
