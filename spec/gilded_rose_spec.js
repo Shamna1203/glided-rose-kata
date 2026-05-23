@@ -72,4 +72,10 @@ it("Backstage passes: quality drops to 0 after concert", function() {
     expect(items[0].quality).toEqual(0);
 });
 
+it("Conjured: quality decreases by 2 each day", function() {
+    const gildedRose = new Shop([new Item("Conjured", 10, 20)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(18);
+});
+
 });
