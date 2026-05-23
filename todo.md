@@ -1,6 +1,6 @@
 [OK] normal item: quality decreases by 1 each day
-[in progress] normal item: quality decreases by 2 after sellIn date passed
-[ ] quality is never negative
+[OK] normal item: quality decreases by 2 after sellIn date passed
+[in progress] quality is never negative
 [ ] quality is never more than 50
 [ ] Aged Brie: quality increases by 1 each day
 [ ] Aged Brie: quality increases by 2 after sellIn date passed
